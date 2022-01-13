@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.test__title {
+  font-weight: 500;
+  font-size: 28px;
+  color: #00a800;
+}
+.test__title:hover {
+  text-transform: uppercase;
+  color: #f5491f;
+}
+.test__title.test__title--active {
+  visibility: hidden;
+}
